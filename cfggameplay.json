@@ -1,27 +1,29 @@
 {
-	"version": 120,
+	"version": 122, 
 	"GeneralData":
 	{
 		"disableBaseDamage": false,
 		"disableContainerDamage": false,
-		"disableRespawnDialog": false
+		"disableRespawnDialog": false,
+		"disableRespawnInUnconsciousness": false
 	},
     "PlayerData":
 	{
 		"disablePersonalLight": false,
+        "spawnGearPresetFiles": ["custom/akm_loadout.json","custom/dmr_loadout.json"],
 		"StaminaData":
 		{
-			"sprintStaminaModifierErc": 0,
-			"sprintStaminaModifierCro":  0,
+			"sprintStaminaModifierErc": 0.1,
+			"sprintStaminaModifierCro": 0.1,
 			"staminaWeightLimitThreshold": 6000.0,
-			"staminaMax": 175.0,
+			"staminaMax": 10000.0,
 			"staminaKgToStaminaPercentPenalty": 1.75,
 			"staminaMinCap": 5.0,
-			"sprintSwimmingStaminaModifier": 0,
-			"sprintLadderStaminaModifier": 0,
-			"meleeStaminaModifier": 0,
-			"obstacleTraversalStaminaModifier":0,
-			"holdBreathStaminaModifier": 0
+			"sprintSwimmingStaminaModifier": 1.0,
+			"sprintLadderStaminaModifier": 1.0,
+			"meleeStaminaModifier": 1.0,
+			"obstacleTraversalStaminaModifier": 1.0,
+			"holdBreathStaminaModifier": 1.0
 		},
 		"ShockHandlingData":
 		{
@@ -66,11 +68,12 @@
 			"disableIsPlacementPermittedCheck": true,
 			"disableHeightPlacementCheck": true,
 			"disableIsUnderwaterCheck": true,
-			"disableIsInTerrainCheck": true
+			"disableIsInTerrainCheck": true,
+			"disallowedTypesInUnderground": ["FenceKit","TerritoryFlagKit","WatchtowerKit"]
 		},
 		"ConstructionData":
 		{
-				"disablePerformRoofCheck": true,
+			"disablePerformRoofCheck": true,
 			"disableIsCollidingCheck": true,
 			"disableDistanceCheck": true
 		}
