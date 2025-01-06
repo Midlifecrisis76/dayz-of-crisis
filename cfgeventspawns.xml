@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <eventposdef> 
-<event name="StaticWellPump1">
+<event name="ItemPlanks">
 		<pos x="12007.02" z="3561.50" a="271.0" /> 
  
         
