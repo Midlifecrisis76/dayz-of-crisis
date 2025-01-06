@@ -1,5 +1,5 @@
 {
-	"version": 122, 
+	"version": 122,
 	"GeneralData":
 	{
 		"disableBaseDamage": false,
@@ -10,11 +10,11 @@
     "PlayerData":
 	{
 		"disablePersonalLight": false,
-        "spawnGearPresetFiles": ["custom/akm_loadout.json","custom/dmr_loadout.json"],
+		 "spawnGearPresetFiles": ["custom/akm_loadout.json","custom/dmr_loadout.json","custom/payday-loadout.json","custom/m4a1_loadout.json","custom/svd_loadout.json","custom/police-loadout.json","custom/nbc-medic-loadout.json"],
 		"StaminaData":
 		{
-			"sprintStaminaModifierErc": 0.1,
-			"sprintStaminaModifierCro": 0.1,
+			"sprintStaminaModifierErc": 1.0,
+			"sprintStaminaModifierCro": 1.0,
 			"staminaWeightLimitThreshold": 6000.0,
 			"staminaMax": 10000.0,
 			"staminaKgToStaminaPercentPenalty": 1.75,
@@ -49,7 +49,7 @@
 	},
 	"WorldsData":
 	{
-		"lightingConfig": 1,
+		"lightingConfig": 0,
 		"objectSpawnersArr": [],
 		"environmentMinTemps": [-3.0, -2.0, 0.0, 4.0, 9.0, 14.0, 18.0, 17.0, 12.0, 7.0, 4.0, 0.0],
 		"environmentMaxTemps": [3.0, 5.0, 7.0, 14.0, 19.0, 24.0, 26.0, 25.0, 21.0, 16.0, 10.0, 5.0],
@@ -73,7 +73,7 @@
 		},
 		"ConstructionData":
 		{
-			"disablePerformRoofCheck": true,
+				"disablePerformRoofCheck": true,
 			"disableIsCollidingCheck": true,
 			"disableDistanceCheck": true
 		}
