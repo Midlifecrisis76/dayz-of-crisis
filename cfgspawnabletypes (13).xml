@@ -4765,16 +4765,16 @@
 			<item name="NVGoggles" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="WoodenPlank" chance="1.00" />
+			<item name="PowerGenerator" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="WoodenPlank" chance="1.00" />
+			<item name="CableReel" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="WoodenPlank" chance="1.00" />
+			<item name="SparkPlug" chance="1.00" />
 		</attachments>
         <attachments chance="1.00">
-			<item name="WoodenPlank" chance="1.00" />
+			<item name="BatteryCharger" chance="1.00" />
 		</attachments>
         <attachments chance="1.00">
 			<item name="WoodenPlank" chance="1.00" />
@@ -4900,31 +4900,31 @@
 			<item name="SledgeHammer" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="NailBox" chance="1.00" />
+			<item name="WoodenLog" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="WoodenLog" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
 			<item name="NailBox" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="NailBox" chance="1.00" />
+			<item name="WoodenLog" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
 			<item name="NailBox" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="NailBox" chance="1.00" />
+			<item name="WoodenLog" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="NailBox" chance="1.00" />
+			<item name="WoodenLog" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="NailBox" chance="1.00" />
+			<item name="WoodenLog" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="NailBox" chance="1.00" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="NailBox" chance="1.00" />
+			<item name="WoodenLog" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
 			<item name="NailBox" chance="1.00" />
