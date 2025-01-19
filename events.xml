@@ -1,5 +1,39 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <events>
+<event name="StaticWellPump">
+        <nominal>1</nominal>
+        <min>1</min>
+        <max>1</max>
+        <lifetime>3888000</lifetime>
+        <restock>0</restock>
+        <saferadius>0</saferadius>
+        <distanceradius>0</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+        <child lootmax="0" lootmin="0" max="1" min="1" type="Land_Misc_Well_Pump_Yellow"/>
+        </children>
+</event>
+<event name="StaticPumpFuel">
+        <nominal>1</nominal>
+        <min>1</min>
+        <max>1</max>
+        <lifetime>3888000</lifetime>
+        <restock>0</restock>
+        <saferadius>0</saferadius>
+        <distanceradius>0</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+        <child lootmax="0" lootmin="0" max="1" min="1" type="Land_FuelStation_Feed"/>
+        </children>
+    </event>
 <event name="VehicleTruckEvent">
         <nominal>5</nominal> 
         <min>5</min>
@@ -29,7 +63,7 @@
         <flags deletable="0" init_random="0" remove_damaged="1"/>
         <position>fixed</position>
         <limit>mixed</limit>
-        <active>1</active>
+        <active>0</active>
         <children>
         <child lootmax="0" lootmin="0" max="1" min="1" type="PileOfWoodenPlanks"/> 
       </children>
@@ -663,9 +697,9 @@
         </children>
     </event>
     <event name="ItemPlanks">
-        <nominal>100</nominal>
-        <min>99</min>
-        <max>100</max>
+        <nominal>300</nominal>
+        <min>275</min>
+        <max>300</max>
         <lifetime>7200</lifetime>
         <restock>0</restock>
         <saferadius>250</saferadius>
@@ -1151,4 +1185,5 @@
             <child lootmax="0" lootmin="0" max="35" min="25" type="Truck_01_Covered_Orange"/>
         </children>
     </event>
+    
 </events>
