@@ -5233,6 +5233,8 @@ This XML file does not appear to have any style information associated with it. 
 <category name="tools"/>
 <tag name="shelves"/>
 <usage name="Town"/>
+<usage name="Lunapark"/>
+<usage name="Farm"/>
 <usage name="Village"/>
 <usage name="Hunting"/>
 </type>
